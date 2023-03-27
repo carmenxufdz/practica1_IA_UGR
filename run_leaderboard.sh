@@ -2,13 +2,24 @@
 
 LEADERBOARD_URL="http://mcs.ugr.es/p1"
 
+# Check last update
+last_update=$(git ls-remote https://github.com/ugr-ccia-IA/practica1.git HEAD | awk '{print $1}')
+if git merge-base --is-ancestor $last_update main; then
+    echo "Repositorio actualizado"
+else
+    echo "Actualiza el repositorio con los cambios del profesor antes de ejecutar el leaderboard"
+    exit 1
+fi
+# Save commits list
+COMMITS_LIST=$(git log --format="%H")
+
 # if 1st argument is "clean", remove .leaderboard_config
 if [ "$1" = "clean" ]; then
     rm .leaderboard_config
 fi
 
 echo "Instalando dependencias..."
-dpkg -s python3 > /dev/null || sudo apt install python3
+dpkg -s python3.8 > /dev/null || sudo apt install python3.8
 
 echo "Eliminando archivos de compilación..."
 rm -r build CMakeCache.txt CMakeFiles cmake_install.cmake Makefile practica1 practica1SG 2> /dev/null
@@ -43,7 +54,7 @@ fi
 echo "Running tests..."
 # LEADERBOARD_NAME=$LEADERBOARD_NAME LEADERBOARD_GROUP=$LEADERBOARD_GROUP LEADERBOARD_URL=$LEADERBOARD_URL python3 leaderboard.py
 
-LEADERBOARD_NAME=$LEADERBOARD_NAME LEADERBOARD_GROUP=$LEADERBOARD_GROUP LEADERBOARD_URL=$LEADERBOARD_URL python3 - <<END
+LEADERBOARD_NAME=$LEADERBOARD_NAME LEADERBOARD_GROUP=$LEADERBOARD_GROUP LEADERBOARD_URL=$LEADERBOARD_URL COMMITS_LIST=$COMMITS_LIST python3.8 - <<END
 import subprocess
 import os
 import time
@@ -52,14 +63,16 @@ import json
 from collections import namedtuple
 from itertools import chain
 
-# Assert $LEADERBOARD_NAME, $LEADERBOARD_GROUP and $LEADERBOARD_URL is set
+# Assert LEADERBOARD_NAME, LEADERBOARD_GROUP and LEADERBOARD_URL is set and COMMITS_LIST is set
 assert "LEADERBOARD_NAME" in os.environ, "LEADERBOARD_NAME not set"
 assert "LEADERBOARD_GROUP" in os.environ, "LEADERBOARD_GROUP not set"
 assert "LEADERBOARD_URL" in os.environ, "LEADERBOARD_URL not set"
+assert "COMMITS_LIST" in os.environ, "COMMITS_LIST not set"
 
 user_name = os.environ["LEADERBOARD_NAME"]
 user_group = os.environ["LEADERBOARD_GROUP"]
 leaderboard_url = os.environ["LEADERBOARD_URL"]
+commits_list = os.environ["COMMITS_LIST"].split("\n")
 
 
 # Copied from https://stackoverflow.com/questions/3173320/text-progress-bar-in-terminal-with-block-characters/13685020
@@ -307,6 +320,8 @@ r = requests.post(leaderboard_url, json={
         'user': user_name,
         'group': user_group,
         'execution_results': test_results,
+        'commits_list': commits_list,
+        'version': '2'
     })
 print(r.status_code)
 print(r.text)
