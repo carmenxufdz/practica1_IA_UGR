@@ -3,21 +3,31 @@
 # Autor: Fernando Cuesta Bueno 2º A2
 # Asignatura: Inteligencia Artificial
 
+# Actualizado: 28/03/2023 - 10:15
+
 # Script para ejecutar las diferentes pruebas utilizadas en el leaderboard.
 # Los resultados obtenidos son los usados en el leaderboard para calcular la puntuación.
 # Los resultados pueden verse en el archivo especificado en "fichero" (primera línea del script).
-# El fichero de destino puede modificarse sin problema, simplemente cambiar la ruta de destino en la primera línea del script.
+# El fichero de destino puede modificarse sin problema, simplemente cambiar el path de destino-
 
 # Nota: si no aparece el porcentaje descubierto se trata de un 'Segmentation fault'.
 # Espero que os ayude!!
 
-fichero=datos.txt
+dia=`date +"%d-%m-%Y"`
+hora=`date +"%H:%M"`
+
+fichero=ejecuciones
+directorio=ejecuciones
+path=$directorio/$fichero-$dia-$hora.txt
+
 informacion=informacion.txt
 intermedio=intermedio.txt
 porcentajes=porcentajes.txt
 
 
-rm -f $fichero $informacion $intermedio $porcentajes
+rm -f $informacion $intermedio $porcentajes
+
+mkdir -p $directorio
 
 # ejecuciones mapa30
 
@@ -83,8 +93,8 @@ do
 	done
 done
 
-paste $informacion $porcentajes >> $fichero
+paste $informacion $porcentajes >> $path
 
-echo -e "\nNOTA: los huecos vacios son 'Segmentation fault'" >> $fichero
+echo -e "\nNOTA: los huecos vacios son 'Segmentation fault'" >> $path
 
 rm -f $informacion $intermedio $porcentajes

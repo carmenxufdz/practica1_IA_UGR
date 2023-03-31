@@ -8,6 +8,9 @@ struct state{
   int fil;
   int col;
   Orientacion brujula;
+  bool bikini;
+  bool zapatillas;
+
 };
 
 class ComportamientoJugador : public Comportamiento{
@@ -18,8 +21,10 @@ class ComportamientoJugador : public Comportamiento{
       // Dar el valor inicial a las variables de estado
       current_state.brujula = norte;
       current_state.fil = current_state.col = 99;
+      current_state.bikini = false;
+      current_state.zapatillas = false;
       last_action = actIDLE;
-      girar_derecha = false;
+      girar = false;
       bien_situado = false;
     }
 
@@ -28,17 +33,32 @@ class ComportamientoJugador : public Comportamiento{
 
     Action think(Sensores sensores);
     int interact(Action accion, int valor);
-    void PonerTerrenoEnMatriz(const vector<unsigned char> &terreno, const state &st,
-							                vector<vector<unsigned char>> &matriz);
-    void ActualizaPosicion();
 
   private:
   // Declarar aquí las variables de estado
     state current_state;
     Action last_action;
-    bool girar_derecha;
+    bool girar;
     bool bien_situado;
   
+  // Funciones privadas
+    void PonerTerrenoEnMatriz(const vector<unsigned char> &terreno, const state &st,
+							                vector<vector<unsigned char>> &matriz);
+    void ActualizaPosicion();
+    Action EjecutaAccion(Sensores sensores);
+    Action Posicionarme(Sensores sensores);
+    Action IrObjeto(Sensores sensores);
+    
+    bool VeoZapatos(const vector <unsigned char> &terreno);
+    bool VeoBikini(const vector <unsigned char> &terreno);
+    bool LoboALaVista(const vector <unsigned char> &superficie, int &pos);
+    bool HayObstaculoDelante(const vector <unsigned char> &terreno);
+    bool HayAldeanoDelante(const vector <unsigned char> &superficie);
+    bool CasillaRecarga(const vector <unsigned char> &terreno);
+    bool CasillaPosicionamiento(const vector <unsigned char> &terreno, int &pos);
+
+    
+    void Recargar();
 };
 
 

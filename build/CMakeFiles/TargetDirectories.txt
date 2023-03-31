@@ -1,0 +1,9 @@
+/home/alissea/practica1_IA/build/CMakeFiles/obj3DLib.dir
+/home/alissea/practica1_IA/build/CMakeFiles/GLUILib.dir
+/home/alissea/practica1_IA/build/CMakeFiles/modelosBelkanLib.dir
+/home/alissea/practica1_IA/build/CMakeFiles/comportamientosLib.dir
+/home/alissea/practica1_IA/build/CMakeFiles/motorLib.dir
+/home/alissea/practica1_IA/build/CMakeFiles/practica1.dir
+/home/alissea/practica1_IA/build/CMakeFiles/practica1SG.dir
+/home/alissea/practica1_IA/build/CMakeFiles/edit_cache.dir
+/home/alissea/practica1_IA/build/CMakeFiles/rebuild_cache.dir

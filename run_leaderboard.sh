@@ -18,8 +18,15 @@ if [ "$1" = "clean" ]; then
     rm .leaderboard_config
 fi
 
+# if 1st argument is "stealth", set mode to stealth
+if [ "$1" = "stealth" ]; then
+    LEADERBOARD_MODE="stealth"
+else
+    LEADERBOARD_MODE="normal"
+fi
+
 echo "Instalando dependencias..."
-dpkg -s python3.8 > /dev/null || sudo apt install python3.8
+python3 -c 'import sys; assert sys.version_info[:][1] >= 8' || (echo "Instalando python3.8..." && sudo apt install software-properties-common && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt install python3.8 && sudo ln -s /usr/bin/python3.8 /usr/bin/python3) || exit 1
 
 echo "Eliminando archivos de compilación..."
 rm -r build CMakeCache.txt CMakeFiles cmake_install.cmake Makefile practica1 practica1SG 2> /dev/null
@@ -54,7 +61,7 @@ fi
 echo "Running tests..."
 # LEADERBOARD_NAME=$LEADERBOARD_NAME LEADERBOARD_GROUP=$LEADERBOARD_GROUP LEADERBOARD_URL=$LEADERBOARD_URL python3 leaderboard.py
 
-LEADERBOARD_NAME=$LEADERBOARD_NAME LEADERBOARD_GROUP=$LEADERBOARD_GROUP LEADERBOARD_URL=$LEADERBOARD_URL COMMITS_LIST=$COMMITS_LIST python3.8 - <<END
+LEADERBOARD_NAME=$LEADERBOARD_NAME LEADERBOARD_GROUP=$LEADERBOARD_GROUP LEADERBOARD_URL=$LEADERBOARD_URL COMMITS_LIST=$COMMITS_LIST LEADERBOARD_MODE=$LEADERBOARD_MODE python3 - <<END
 import subprocess
 import os
 import time
@@ -68,11 +75,13 @@ assert "LEADERBOARD_NAME" in os.environ, "LEADERBOARD_NAME not set"
 assert "LEADERBOARD_GROUP" in os.environ, "LEADERBOARD_GROUP not set"
 assert "LEADERBOARD_URL" in os.environ, "LEADERBOARD_URL not set"
 assert "COMMITS_LIST" in os.environ, "COMMITS_LIST not set"
+assert "LEADERBOARD_MODE" in os.environ, "LEADERBOARD_MODE not set"
 
 user_name = os.environ["LEADERBOARD_NAME"]
 user_group = os.environ["LEADERBOARD_GROUP"]
 leaderboard_url = os.environ["LEADERBOARD_URL"]
 commits_list = os.environ["COMMITS_LIST"].split("\n")
+leaderboard_mode = os.environ["LEADERBOARD_MODE"]
 
 
 # Copied from https://stackoverflow.com/questions/3173320/text-progress-bar-in-terminal-with-block-characters/13685020
@@ -321,7 +330,8 @@ r = requests.post(leaderboard_url, json={
         'group': user_group,
         'execution_results': test_results,
         'commits_list': commits_list,
-        'version': '2'
+        'version': '2',
+        'stealth': leaderboard_mode == 'stealth'
     })
 print(r.status_code)
 print(r.text)
