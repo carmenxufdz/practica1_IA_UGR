@@ -38,7 +38,7 @@ class ComportamientoJugador : public Comportamiento{
   // Declarar aquí las variables de estado
     state current_state;
     Action last_action;
-    bool girar;
+    int girar;
     bool bien_situado;
   
   // Funciones privadas
@@ -48,17 +48,20 @@ class ComportamientoJugador : public Comportamiento{
     Action EjecutaAccion(Sensores sensores);
     Action Posicionarme(Sensores sensores);
     Action IrObjeto(Sensores sensores);
-    
+    Action Recargar(Sensores sensores);
+    Action HuirLobos(Sensores sensores);
+    Action EvitarAldeanos(Sensores sensores);
+
     bool VeoZapatos(const vector <unsigned char> &terreno);
     bool VeoBikini(const vector <unsigned char> &terreno);
-    bool LoboALaVista(const vector <unsigned char> &superficie, int &pos);
+    bool LoboALaVista(const vector <unsigned char> &superficie);
     bool HayObstaculoDelante(const vector <unsigned char> &terreno);
     bool HayAldeanoDelante(const vector <unsigned char> &superficie);
     bool CasillaRecarga(const vector <unsigned char> &terreno);
-    bool CasillaPosicionamiento(const vector <unsigned char> &terreno, int &pos);
+    bool CasillaPosicionamiento(const vector <unsigned char> &terreno);
 
     
-    void Recargar();
+
 };
 
 
