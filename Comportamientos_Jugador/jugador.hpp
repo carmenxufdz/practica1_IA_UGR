@@ -51,14 +51,15 @@ class ComportamientoJugador : public Comportamiento{
     Action Recargar(Sensores sensores);
     Action HuirLobos(Sensores sensores);
     Action EvitarAldeanos(Sensores sensores);
+    Action EntrarMuro(Sensores sensores);
 
     bool VeoZapatos(const vector <unsigned char> &terreno);
     bool VeoBikini(const vector <unsigned char> &terreno);
     bool LoboALaVista(const vector <unsigned char> &superficie);
-    bool HayObstaculoDelante(const vector <unsigned char> &terreno);
     bool HayAldeanoDelante(const vector <unsigned char> &superficie);
     bool CasillaRecarga(const vector <unsigned char> &terreno);
     bool CasillaPosicionamiento(const vector <unsigned char> &terreno);
+    bool VeoPuertaMuro(const vector <unsigned char> &terreno);
 
     
 
