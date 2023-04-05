@@ -448,119 +448,29 @@ bool ComportamientoJugador::VeoPuertaMuro(const vector <unsigned char> &terreno)
 			if(terreno[3]=='M')
 					return true;
 	}
-	else if(terreno[2]!='M' ){
+	if(terreno[2]!='M' ){
 		if(terreno[1] == 'M')
 			if(terreno[3]=='M')
 					return true;
 	}
-	else if(terreno[3]!='M' ){
+	if(terreno[3]!='M' ){
 		if(terreno[2] == 'M')
 			if(terreno[1]=='M')
 					return true;
-	}
-	else if(terreno[4]!='M' ){
-		if(terreno[5] == 'M')
-			if(terreno[6]=='M')
-					return true;
-	}
-	else if(terreno[5]!='M' ){
-		if(terreno[4] == 'M')
-			if(terreno[6]=='M')
-					return true;
-	}
-	else if(terreno[6]!='M' ){
-		if(terreno[5] == 'M')
-			if(terreno[7]=='M')
-					return true;
-	}
-	else if(terreno[7]!='M' ){
-		if(terreno[6] == 'M')
-			if(terreno[8]=='M')
-					return true;
-	}
-	else if(terreno[8]!='M' ){
-		if(terreno[6] == 'M')
-			if(terreno[7]=='M')
-					return true;
-	}
-	else if(terreno[9]!='M' ){
-		if(terreno[10] == 'M')
-			if(terreno[11]=='M')
-					return true;
-	}
-	else if(terreno[10]!='M' ){
-		if(terreno[9] == 'M')
-			if(terreno[11]=='M')
-					return true;
-	}
-	else if(terreno[11]!='M' ){
-		if(terreno[10] == 'M')
-			if(terreno[12]=='M')
-					return true;
-	}
-	else if(terreno[12]!='M' ){
-		if(terreno[11] == 'M')
-			if(terreno[13]=='M')
-					return true;
-	}
-	else if(terreno[13]!='M' ){
-		if(terreno[12] == 'M')
-			if(terreno[14]=='M')
-					return true;
-	}
-	else if(terreno[14]!='M' ){
-		if(terreno[13] == 'M')
-			if(terreno[15]=='M')
-					return true;
-	}
-
-	else if(terreno[15]!='M' ){
-		if(terreno[13] == 'M')
-			if(terreno[14]=='M')
-					return true;
 	}		
-
 	// MURO SITUADO AL ESTE/OESTE
 
-	else if(terreno[1]!='M'){
+	if(terreno[1]!='M'){
 		if(terreno[5] == 'M')
 			if(terreno[11]=='M')
 					return true;
 	}
-	else if(terreno[3]!='M' ){
+	if(terreno[3]!='M' ){
 		if(terreno[7] == 'M')
 			if(terreno[13]=='M')
 					return true;
 	}
-	else if(terreno[5]!='M' ){
-		if(terreno[1] == 'M')
-			if(terreno[11]=='M')
-					return true;
-	}
-	else if(terreno[7]!='M' ){
-		if(terreno[3] == 'M')
-			if(terreno[13]=='M')
-					return true;
-	}
-	else if(terreno[10]!='M' ){
-		if(terreno[4] == 'M')
-					return true;
-	}
-	else if(terreno[11]!='M' ){
-		if(terreno[5] == 'M')
-			if(terreno[1]=='M')
-					return true;
-	}
-	else if(terreno[13]!='M' ){
-		if(terreno[7] == 'M')
-			if(terreno[3]=='M')
-					return true;
-	}
-	else if(terreno[14]!='M' ){
-		if(terreno[8] == 'M')
-			if(terreno[15]=='M')
-					return true;
-	}
+
 
 	return false;
 }
@@ -831,115 +741,26 @@ Action ComportamientoJugador::EntrarMuro(Sensores sensores){
 			if(sensores.terreno[3]=='M')
 					accion = actTURN_SL;
 	}
-	else if(sensores.terreno[2]!='M' ){
+	if(sensores.terreno[2]!='M' ){
 		if(sensores.terreno[1] == 'M')
 			if(sensores.terreno[3]=='M')
 					accion = actFORWARD;
 	}
-	else if(sensores.terreno[3]!='M' ){
+	if(sensores.terreno[3]!='M' ){
 		if(sensores.terreno[2] == 'M')
 			if(sensores.terreno[1]=='M')
 					accion = actTURN_SR;
 	}
-	else if(sensores.terreno[4]!='M' ){
-		if(sensores.terreno[5] == 'M')
-			if(sensores.terreno[6]=='M')
-					accion = actTURN_SL;
-	}
-	else if(sensores.terreno[5]!='M' ){
-		if(sensores.terreno[4] == 'M')
-			if(sensores.terreno[6]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[6]!='M' ){
-		if(sensores.terreno[5] == 'M')
-			if(sensores.terreno[7]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[7]!='M' ){
-		if(sensores.terreno[6] == 'M')
-			if(sensores.terreno[8]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[8]!='M' ){
-		if(sensores.terreno[6] == 'M')
-			if(sensores.terreno[7]=='M')
-					accion = actTURN_SR;
-	}
-	else if(sensores.terreno[9]!='M' ){
-		if(sensores.terreno[10] == 'M')
-			if(sensores.terreno[11]=='M')
-					accion = actTURN_SL;
-	}
-	else if(sensores.terreno[10]!='M' ){
-		if(sensores.terreno[9] == 'M')
-			if(sensores.terreno[11]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[11]!='M' ){
-		if(sensores.terreno[10] == 'M')
-			if(sensores.terreno[12]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[12]!='M' ){
-		if(sensores.terreno[11] == 'M')
-			if(sensores.terreno[13]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[13]!='M' ){
-		if(sensores.terreno[12] == 'M')
-			if(sensores.terreno[14]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[14]!='M' ){
-		if(sensores.terreno[13] == 'M')
-			if(sensores.terreno[15]=='M')
-					accion = actFORWARD;
-	}
 
-	else if(sensores.terreno[15]!='M' ){
-		if(sensores.terreno[13] == 'M')
-			if(sensores.terreno[14]=='M')
-					accion = actTURN_SR;
-	} 
 	
-	else if(sensores.terreno[1]!='M'){
+	if(sensores.terreno[1]!='M'){
 		if(sensores.terreno[5] == 'M')
 			if(sensores.terreno[11]=='M')
 					accion = actTURN_SL;
 	}
-	else if(sensores.terreno[3]!='M' ){
+	if(sensores.terreno[3]!='M' ){
 		if(sensores.terreno[7] == 'M')
 			if(sensores.terreno[13]=='M')
-					accion = actTURN_SR;
-	}
-	else if(sensores.terreno[5]!='M' ){
-		if(sensores.terreno[1] == 'M')
-			if(sensores.terreno[11]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[7]!='M' ){
-		if(sensores.terreno[3] == 'M')
-			if(sensores.terreno[13]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[10]!='M' ){
-		if(sensores.terreno[4] == 'M')
-					accion = actTURN_SL;
-	}
-	else if(sensores.terreno[11]!='M' ){
-		if(sensores.terreno[5] == 'M')
-			if(sensores.terreno[1]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[13]!='M' ){
-		if(sensores.terreno[7] == 'M')
-			if(sensores.terreno[3]=='M')
-					accion = actFORWARD;
-	}
-	else if(sensores.terreno[14]!='M' ){
-		if(sensores.terreno[8] == 'M')
-			if(sensores.terreno[15]=='M')
 					accion = actTURN_SR;
 	}
 
