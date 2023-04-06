@@ -224,6 +224,16 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: ../src/motorlib/entidad.cpp 
   ../include/comportamientos/comportamiento.hpp \
   ../Comportamientos_Jugador/jugador.hpp \
   ../include/comportamientos/comportamiento.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   ../Comportamientos_Jugador/aldeano.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -471,6 +481,16 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: ../src/motorlib/mapa.cpp \
   ../include/comportamientos/comportamiento.hpp \
   ../Comportamientos_Jugador/jugador.hpp \
   ../include/comportamientos/comportamiento.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   ../Comportamientos_Jugador/aldeano.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -730,6 +750,16 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: ../src/motorlib/monitor.cpp 
   ../include/comportamientos/comportamiento.hpp \
   ../Comportamientos_Jugador/jugador.hpp \
   ../include/comportamientos/comportamiento.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   ../Comportamientos_Jugador/aldeano.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -1001,6 +1031,16 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: ../src/motorlib/motor_
   ../include/comportamientos/comportamiento.hpp \
   ../Comportamientos_Jugador/jugador.hpp \
   ../include/comportamientos/comportamiento.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   ../Comportamientos_Jugador/aldeano.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -1273,6 +1313,16 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: ../src/motorlib/motor_ju
   ../include/comportamientos/comportamiento.hpp \
   ../Comportamientos_Jugador/jugador.hpp \
   ../include/comportamientos/comportamiento.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   ../Comportamientos_Jugador/aldeano.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -1415,6 +1465,18 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 ../include/modelos/perro/cabeza.hpp:
 
+../include/modelos/jugador/quesito.hpp:
+
+../include/modelos/aldeano/pierna.hpp:
+
+../include/modelos/aldeano/brazo.hpp:
+
+../include/modelos/retrato.hpp:
+
+../include/modelos/aldeano/cabeza.hpp:
+
+../include/modelos/aldeano/torso.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/pthread.h:
@@ -1436,8 +1498,6 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-../include/modelos/aldeano/pierna.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
@@ -1473,13 +1533,13 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-../include/modelos/aldeano/cabeza.hpp:
-
 /usr/include/c++/11/clocale:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/c++/11/new:
+
+/usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/tuple:
 
@@ -1550,8 +1610,6 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-../include/modelos/retrato.hpp:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
@@ -1627,8 +1685,6 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-../include/modelos/aldeano/brazo.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/stdlib.h:
@@ -1651,8 +1707,6 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 /usr/include/assert.h:
 
-../include/modelos/aldeano/torso.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/c++/11/bits/exception_defines.h:
@@ -1669,17 +1723,17 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 /usr/include/c++/11/math.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+../include/modelos/jugador/jugador3d.hpp:
+
+../include/comportamientos/comportamiento.hpp:
+
 ../include/obj3dlib/file_ply_stl.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
+/usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -1710,6 +1764,8 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 /usr/include/GL/glext.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
@@ -1745,6 +1801,8 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
+/usr/include/c++/11/list:
+
 /usr/include/c++/11/cstdio:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
@@ -1763,13 +1821,13 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
-../include/comportamientos/comportamiento.hpp:
-
-../include/modelos/jugador/jugador3d.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/asm-generic/errno.h:
+
+../include/modelos/arbol/arbol.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
@@ -1821,6 +1879,8 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 /usr/include/c++/11/bits/ios_base.h:
 
+/usr/include/c++/11/set:
+
 /usr/include/c++/11/iostream:
 
 ../include/obj3dlib/toro3d.h:
@@ -1830,8 +1890,6 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/ostream:
 
@@ -1871,6 +1929,8 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
+/usr/include/c++/11/bits/list.tcc:
+
 ../src/motorlib/motor_juego.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -1901,6 +1961,10 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 
 ../include/obj3dlib/cono3d.h:
 
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/bits/stl_list.h:
+
 ../include/modelos/item/item.hpp:
 
 ../include/motorlib/util.h:
@@ -1920,6 +1984,18 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 ../include/obj3dlib/dodecaedro3d.h:
 
 ../include/comportamientolib.hpp:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/c++/11/thread:
 
@@ -1944,9 +2020,3 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: ../src/motorlib/util.cpp \
 ../include/motorlib/mapa.hpp:
 
 /usr/include/GL/glut.h:
-
-../include/modelos/jugador/quesito.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-../include/modelos/arbol/arbol.hpp:

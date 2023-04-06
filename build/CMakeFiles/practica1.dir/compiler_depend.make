@@ -231,6 +231,16 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
   ../include/comportamientos/comportamiento.hpp \
   ../Comportamientos_Jugador/jugador.hpp \
   ../include/comportamientos/comportamiento.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   ../Comportamientos_Jugador/aldeano.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -283,6 +293,24 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 ../include/modelos/aldeano/pierna.hpp:
 
+../include/modelos/aldeano/brazo.hpp:
+
+../include/modelos/retrato.hpp:
+
+../include/modelos/aldeano/cabeza.hpp:
+
+../include/modelos/aldeano/torso.hpp:
+
+../include/modelos_belkan.hpp:
+
+/usr/include/GL/glu.h:
+
+/usr/include/GL/freeglut_std.h:
+
+/usr/include/GL/glut.h:
+
+../include/motorlib/mapa.hpp:
+
 /usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
@@ -311,9 +339,11 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 /usr/include/c++/11/cstdlib:
 
-/usr/include/assert.h:
+../include/modelos/aldeano/aldeano.hpp:
 
-../include/modelos/aldeano/torso.hpp:
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/include/assert.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -321,9 +351,9 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+/usr/include/c++/11/bits/allocated_ptr.h:
 
-../include/modelos_belkan.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -345,13 +375,11 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-../include/modelos/aldeano/aldeano.hpp:
-
 /usr/include/c++/11/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/11/set:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -381,11 +409,7 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
-../include/modelos/aldeano/cabeza.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/GL/freeglut_std.h:
 
 /usr/include/wchar.h:
 
@@ -394,6 +418,8 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 /usr/include/c++/11/string:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/tuple:
 
@@ -408,6 +434,8 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 /usr/include/c++/11/ext/string_conversions.h:
 
 /usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/c++/11/list:
 
 /usr/include/c++/11/bits/invoke.h:
 
@@ -456,8 +484,6 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 /usr/include/c++/11/new:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/GL/glu.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -529,8 +555,6 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-../include/modelos/aldeano/brazo.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
@@ -593,25 +617,19 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 /usr/include/c++/11/math.h:
 
-../include/obj3dlib/file_ply_stl.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
-
 ../include/modelos/jugador/jugador3d.hpp:
 
 ../include/comportamientos/comportamiento.hpp:
 
+../include/obj3dlib/file_ply_stl.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-../include/modelos/retrato.hpp:
 
 /usr/include/alloca.h:
 
@@ -683,6 +701,8 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
+/usr/include/c++/11/bits/list.tcc:
+
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -751,8 +771,6 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
 /usr/include/KHR/khrplatform.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
@@ -766,6 +784,10 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 ../include/obj3dlib/cubo3d.h:
 
 ../include/obj3dlib/cono3d.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/bits/stl_list.h:
 
 ../include/modelos/item/item.hpp:
 
@@ -787,6 +809,18 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 
 ../include/comportamientolib.hpp:
 
+/usr/include/c++/11/bits/stl_set.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
 /usr/include/c++/11/thread:
 
 /usr/include/c++/11/ratio:
@@ -804,7 +838,3 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc \
 /usr/include/c++/11/bits/refwrap.h:
 
 ../Comportamientos_Jugador/perro.hpp:
-
-../include/motorlib/mapa.hpp:
-
-/usr/include/GL/glut.h:

@@ -226,6 +226,16 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
   ../include/comportamientos/comportamiento.hpp \
   ../Comportamientos_Jugador/jugador.hpp \
   ../include/comportamientos/comportamiento.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   ../Comportamientos_Jugador/aldeano.hpp \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -287,6 +297,18 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 ../include/modelos/perro/cabeza.hpp:
 
+../include/modelos/jugador/quesito.hpp:
+
+../include/modelos/aldeano/pierna.hpp:
+
+../include/modelos/aldeano/brazo.hpp:
+
+../include/modelos/retrato.hpp:
+
+../include/modelos/aldeano/cabeza.hpp:
+
+../include/modelos/aldeano/torso.hpp:
+
 /usr/include/pthread.h:
 
 ../include/obj3dlib.hpp:
@@ -306,8 +328,6 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-../include/modelos/aldeano/pierna.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
@@ -343,13 +363,13 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-../include/modelos/aldeano/cabeza.hpp:
-
 /usr/include/c++/11/clocale:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/c++/11/new:
+
+/usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/tuple:
 
@@ -389,6 +409,8 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
+/usr/include/c++/11/bits/allocated_ptr.h:
+
 /usr/include/c++/11/debug/debug.h:
 
 /usr/include/features-time64.h:
@@ -400,8 +422,6 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-../include/modelos/retrato.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -428,8 +448,6 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-../include/modelos/aldeano/brazo.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -519,8 +537,6 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 /usr/include/assert.h:
 
-../include/modelos/aldeano/torso.hpp:
-
 /usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
@@ -545,17 +561,17 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 /usr/include/c++/11/math.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+../include/modelos/jugador/jugador3d.hpp:
+
+../include/comportamientos/comportamiento.hpp:
+
 ../include/obj3dlib/file_ply_stl.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
+/usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -609,6 +625,8 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
+/usr/include/c++/11/list:
+
 /usr/include/c++/11/cstdio:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
@@ -631,13 +649,13 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
-../include/comportamientos/comportamiento.hpp:
-
-../include/modelos/jugador/jugador3d.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/asm-generic/errno.h:
+
+../include/modelos/arbol/arbol.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
@@ -689,6 +707,8 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 /usr/include/c++/11/bits/ios_base.h:
 
+/usr/include/c++/11/set:
+
 /usr/include/c++/11/iostream:
 
 ../include/obj3dlib/toro3d.h:
@@ -698,8 +718,6 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/ostream:
 
@@ -739,6 +757,8 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
+/usr/include/c++/11/bits/list.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
@@ -761,6 +781,10 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 
 ../include/obj3dlib/cono3d.h:
 
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/bits/stl_list.h:
+
 ../include/modelos/item/item.hpp:
 
 ../include/motorlib/util.h:
@@ -780,6 +804,18 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 ../include/obj3dlib/dodecaedro3d.h:
 
 ../include/comportamientolib.hpp:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/c++/11/thread:
 
@@ -802,9 +838,3 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc \
 ../include/motorlib/mapa.hpp:
 
 /usr/include/GL/glut.h:
-
-../include/modelos/jugador/quesito.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-../include/modelos/arbol/arbol.hpp:

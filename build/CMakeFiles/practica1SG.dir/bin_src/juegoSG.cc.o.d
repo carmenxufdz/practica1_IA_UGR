@@ -188,6 +188,13 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: \
  /home/alissea/practica1_IA/include/comportamientos/comportamiento.hpp \
  /home/alissea/practica1_IA/include/../Comportamientos_Jugador/jugador.hpp \
  /home/alissea/practica1_IA/include/comportamientos/comportamiento.hpp \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/ext/aligned_buffer.h \
+ /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/set \
+ /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /usr/include/c++/11/bits/erase_if.h \
  /home/alissea/practica1_IA/include/../Comportamientos_Jugador/aldeano.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \

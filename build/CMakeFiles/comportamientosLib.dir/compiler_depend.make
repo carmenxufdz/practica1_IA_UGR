@@ -337,7 +337,35 @@ CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o: ../Comp
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/bits/uses_allocator.h
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o: ../Comportamientos_Jugador/perro.cpp \
   /usr/include/stdc-predef.h \
@@ -581,11 +609,37 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 
 ../Comportamientos_Jugador/perro.hpp:
 
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/c++/11/bits/stl_set.h:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/istream:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/c++/11/bits/list.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
@@ -603,6 +657,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/c++/11/bits/basic_string.tcc:
@@ -618,6 +674,10 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/11/set:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -655,6 +715,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 
 /usr/include/stdlib.h:
 
+/usr/include/c++/11/bits/stl_list.h:
+
 ../include/motorlib/util.h:
 
 ../src/comportamientos/comportamiento.cpp:
@@ -674,6 +736,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/cmath:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
@@ -717,6 +781,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
+/usr/include/c++/11/deque:
+
 /usr/include/c++/11/ios:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
@@ -728,6 +794,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/c++/11/list:
 
 /usr/include/c++/11/ext/string_conversions.h:
 
@@ -778,6 +846,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/linux/errno.h:
+
+/usr/include/c++/11/queue:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -861,6 +931,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/usr/include/c++/11/bits/stl_tree.h:
+
 /usr/include/c++/11/type_traits:
 
 /usr/include/c++/11/tuple:
@@ -870,6 +942,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -907,6 +981,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
+/usr/include/c++/11/bits/stl_queue.h:
+
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/debug/assertions.h:
@@ -931,6 +1007,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 
 /usr/include/c++/11/bits/invoke.h:
 
+/usr/include/c++/11/bits/allocated_ptr.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
@@ -940,6 +1018,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/c++/11/iostream:
 
@@ -986,6 +1066,8 @@ CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../s
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/endian.h:
 
