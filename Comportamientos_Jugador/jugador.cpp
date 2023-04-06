@@ -12,6 +12,7 @@ bool EsObstaculo(unsigned char casilla){
     	return false;
  }
 
+<<<<<<< HEAD
 
 Action ComportamientoJugador::think(Sensores sensores){
 
@@ -776,6 +777,8 @@ Action ComportamientoJugador::HuirLobos(Sensores sensores){
 	int huir = rand()%2;
 
 	if(sensores.superficie[1]=='l')
+=======
+>>>>>>> 6fe51c06a9897166055c8fda1fd922238c73f7de
 
 Action ComportamientoJugador::think(Sensores sensores){
 
@@ -1803,5 +1806,4 @@ bool ComportamientoJugador::HayMuroDelante(const vector <unsigned char> &terreno
 
 
 >>>>>>> 7a2cfd93bf986316dcecde909eff29e3394fb060
-
 
