@@ -1034,3 +1034,4 @@ bool ComportamientoJugador::HayMuroDelante(const vector <unsigned char> &terreno
 		return true;
 }
 
+
