@@ -55,15 +55,6 @@ class ComportamientoJugador : public Comportamiento{
     bool VeoPuertaMuro(const vector <unsigned char> &terreno);
     bool HayMuroDelante(const vector <unsigned char> &terreno);
 
-    void PintaPlan(list<Action> plan);
-
-    bool pathFinding(int level, const state &origen, const state &destino, list<Action> &plan);
-    
-    bool pathFinding_Profundidad(const state &origen, const state &destino, list<Action> &plan);
-    bool pathFinding_Anchura(const state &origen, const state &destino, list<Action> &plan);
-    bool pathFinding_Costo(const state &origen, const state &destino, list<Action> &plan);
-
-
   public:
     ComportamientoJugador(unsigned int size) : Comportamiento(size){
       // Constructor de la clase
@@ -79,27 +70,7 @@ class ComportamientoJugador : public Comportamiento{
       hayPlan = false;
       contador = 0;
 
-      pasosGirar = (rand()%50) + 1; //Pasos aleatorios que se daran antes de girar
-
-      destino.brujula = norte;
-      destino.fil = destino.col = -1;
-    }
-
-    ComportamientoJugador(std::vector< std::vector< unsigned char> > mapaR) : Comportamiento(mapaR){
-      // Constructor de la clase
-      // Dar el valor inicial a las variables de estado
-      current_state.brujula = norte;
-      current_state.fil = current_state.col = 99;
-      current_state.bikini = false;
-      current_state.zapatillas = false;
-
-      last_action = actIDLE;
-      bien_situado = false;
-      girar_derecha = false;
-      hayPlan = false;
-      contador = 0;
-
-      pasosGirar = (rand()%50) + 1; //Pasos aleatorios que se daran antes de girar
+      pasosGirar = (rand()%50) + 1; //Pasos que se daran antes de girar aleatoriamente
 
       destino.brujula = norte;
       destino.fil = destino.col = -1;

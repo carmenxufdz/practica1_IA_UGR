@@ -5,13 +5,6 @@
 #include <queue>
 using namespace std;
 
-bool EsObstaculo(unsigned char casilla){
-    if (casilla=='P' or casilla=='M' or casilla =='D')
-    	return true;
-    else
-    	return false;
- }
-
 
 Action ComportamientoJugador::think(Sensores sensores){
 
@@ -57,6 +50,7 @@ Action ComportamientoJugador::think(Sensores sensores){
 	else if(VeoPuertaMuro(sensores.terreno)==true){
 		accion = EntrarMuro(sensores);
 	}
+
 	else if(sensores.terreno[0] == 'X' and sensores.bateria < 3000){
 		accion = actIDLE;
 	}
@@ -370,6 +364,7 @@ Action ComportamientoJugador::think(Sensores sensores){
 
 	// Recordar la última acción
 	last_action = accion;
+	
 	contador = (contador + 1)%(pasosGirar+1);
 	
 	// Determinar el efecto de la ultima accion enviada
@@ -839,66 +834,156 @@ Action ComportamientoJugador::HuirLobos(Sensores sensores){
 
 Action ComportamientoJugador::EvitarAldeanos(Sensores sensores){
 		
-	Action accion = actIDLE;
+Action accion = actIDLE;
 	int evitar = rand()%2;
 
-	if(sensores.superficie[1]=='a')
+	if(sensores.superficie[1]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else
 			accion = actTURN_BR;
+	}
 	else if(sensores.superficie[2]=='a')
 	{
-		switch(evitar){
+		if(sensores.superficie[1]=='_' and sensores.terreno[1]!='P' and sensores.terreno[1]!='M')
+			accion = actTURN_SL;
+		else if(sensores.superficie[3]=='_' and sensores.terreno[3]!='P' and sensores.terreno[3]!='M')
+			accion = actTURN_SR;
+		else{
+			switch(evitar){
 			case 0: 
 				accion = actTURN_BR;
 			break;
 			case 1: 
 				accion = actTURN_BL;
 			break;
+			}
 		}
 	}
-	else if(sensores.superficie[3]=='a')
+	else if(sensores.superficie[3]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else
 			accion = actTURN_BL;
-	else if(sensores.superficie[4]=='a')
+	}
+	else if(sensores.superficie[4]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[3]!='P' and sensores.terreno[3]!='M')
+			accion = actTURN_SR;
+		else 
 			accion = actTURN_BR;
-	else if(sensores.superficie[5]=='a')
+	}
+	else if(sensores.superficie[5]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[3]!='P' and sensores.terreno[3]!='M')
+			accion = actTURN_SR;
+		else 
 			accion = actTURN_BR;
+	}
 	else if(sensores.superficie[6]=='a')
 	{
-		switch(evitar){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(sensores.superficie[1]=='_' and sensores.terreno[1]!='P' and sensores.terreno[1]!='M')
+			accion = actTURN_SL;
+		else if(sensores.superficie[3]=='_' and sensores.terreno[3]!='P' and sensores.terreno[3]!='M')
+			accion = actTURN_SR;
+		else{
+			switch(evitar){
 			case 0: 
 				accion = actTURN_BR;
 			break;
 			case 1: 
 				accion = actTURN_BL;
 			break;
+			}
 		}
 	}
-	else if(sensores.superficie[7]=='a')
+	else if(sensores.superficie[7]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[1]!='P' and sensores.terreno[1]!='M')
+			accion = actTURN_SL;
+		else 
 			accion = actTURN_BL;
-	else if(sensores.superficie[8]=='a')
+	}
+	else if(sensores.superficie[8]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[1]!='P' and sensores.terreno[1]!='M')
+			accion = actTURN_SL;
+		else 
 			accion = actTURN_BL;
-	else if(sensores.superficie[9]=='a')
+	}
+	else if(sensores.superficie[9]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[3]!='P' and sensores.terreno[3]!='M')
+			accion = actTURN_SR;
+		else 
 			accion = actTURN_BR;
-	else if(sensores.superficie[10]=='a')
+	}
+	else if(sensores.superficie[10]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[3]!='P' and sensores.terreno[3]!='M')
+			accion = actTURN_SR;
+		else 
 			accion = actTURN_BR;
-	else if(sensores.superficie[11]=='a')
+	}
+	else if(sensores.superficie[11]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[3]!='P' and sensores.terreno[3]!='M')
+			accion = actTURN_SR;
+		else 
 			accion = actTURN_BR;
+	}
 	else if(sensores.superficie[12]=='a')
 	{
-		switch(evitar){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(sensores.superficie[1]=='_' and sensores.terreno[1]!='P' and sensores.terreno[1]!='M')
+			accion = actTURN_SL;
+		else if(sensores.superficie[3]=='_' and sensores.terreno[3]!='P' and sensores.terreno[3]!='M')
+			accion = actTURN_SR;
+		else{
+			switch(evitar){
 			case 0: 
 				accion = actTURN_BR;
 			break;
 			case 1: 
 				accion = actTURN_BL;
 			break;
+			}
 		}
-	}	
-	else if(sensores.superficie[13]=='a')
+	}
+	else if(sensores.superficie[13]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[1]!='P' and sensores.terreno[1]!='M')
+			accion = actTURN_SL;
+		else 
 			accion = actTURN_BL;
-	else if(sensores.superficie[14]=='a')
+	}
+	else if(sensores.superficie[14]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[1]!='P' and sensores.terreno[1]!='M')
+			accion = actTURN_SL;
+		else 
 			accion = actTURN_BL;
-	else if(sensores.superficie[15]=='a')
+	}
+	else if(sensores.superficie[15]=='a'){
+		if(!HayObstaculo(sensores.terreno))
+			accion = actFORWARD;
+		else if(HayObstaculo(sensores.terreno) and sensores.terreno[1]!='P' and sensores.terreno[1]!='M')
+			accion = actTURN_SL;
+		else 
 			accion = actTURN_BL;
+	}
 	
 	last_action = accion;
 	return accion;
@@ -907,36 +992,110 @@ Action ComportamientoJugador::EvitarAldeanos(Sensores sensores){
 
 bool ComportamientoJugador::VeoPuertaMuro(const vector <unsigned char> &terreno){
 	
-	//MURO SITUADO AL NORTE/SUR
+	//MURO SITUADO DELANTE
 	if(current_state.brujula==norte or current_state.brujula==sur
 	or current_state.brujula==este or current_state.brujula==oeste){
-	if(terreno[1]!='M'){
-		if(terreno[2] == 'M')
-			if(terreno[3]=='M')
-					return true;
-	}
-	if(terreno[2]!='M' ){
-		if(terreno[1] == 'M')
-			if(terreno[3]=='M')
-					return true;
-	}
-	if(terreno[3]!='M' ){
-		if(terreno[2] == 'M')
-			if(terreno[1]=='M')
-					return true;
-	}		
-	// MURO SITUADO AL ESTE/OESTE
+		if(terreno[1]!='M'){
+			if(terreno[2] == 'M')
+				if(terreno[3]=='M')
+						return true;
+		}
+		if(terreno[2]!='M' ){
+			if(terreno[1] == 'M')
+				if(terreno[3]=='M')
+						return true;
+		}
+		if(terreno[3]!='M' ){
+			if(terreno[2] == 'M')
+				if(terreno[1]=='M')
+						return true;
+		}	
+		
+		if(terreno[4]!='M' ){
+			if(terreno[5] == 'M')
+				if(terreno[6]=='M')
+						return true;
+		}
 
-	if(terreno[1]!='M'){
-		if(terreno[5] == 'M')
-			if(terreno[11]=='M')
-					return true;
-	}
-	if(terreno[3]!='M' ){
-		if(terreno[7] == 'M')
-			if(terreno[13]=='M')
-					return true;
-	}
+		if(terreno[5]!='M' ){
+			if(terreno[4] == 'M')
+				if(terreno[6]=='M')
+						return true;
+		}
+
+		if(terreno[6]!='M' ){
+			if(terreno[5] == 'M')
+				if(terreno[7]=='M')
+						return true;
+		}
+
+		if(terreno[7]!='M' ){
+			if(terreno[6] == 'M')
+				if(terreno[8]=='M')
+						return true;
+		}
+	
+		if(terreno[8]!='M' ){
+			if(terreno[6] == 'M')
+				if(terreno[7]=='M')
+						return true;
+		}
+
+		if(terreno[10]!='M' ){
+			if(terreno[11] == 'M')
+				if(terreno[9]=='M')
+						return true;
+		}
+
+		if(terreno[11]!='M' ){
+			if(terreno[10] == 'M')
+				if(terreno[12]=='M')
+						return true;
+		}
+
+		if(terreno[12]!='M' ){
+			if(terreno[11] == 'M')
+				if(terreno[13]=='M')
+						return true;
+		}
+		
+		if(terreno[13]!='M' ){
+			if(terreno[12] == 'M')
+				if(terreno[14]=='M')
+						return true;
+		}
+
+		if(terreno[14]!='M' ){
+			if(terreno[13] == 'M')
+				if(terreno[15]=='M')
+						return true;
+		}
+
+		// MURO SITUADO AL LADO
+
+		if(terreno[1]!='M'){
+			if(terreno[5] == 'M')
+				if(terreno[11]=='M')
+						return true;
+		}
+
+		if(terreno[3]!='M' ){
+			if(terreno[7] == 'M')
+				if(terreno[13]=='M')
+						return true;
+		}
+
+		if(terreno[5]!='M'){
+			if(terreno[1] == 'M')
+				if(terreno[11]=='M')
+						return true;
+		}
+
+		if(terreno[7]!='M'){
+			if(terreno[3] == 'M')
+				if(terreno[13]=='M')
+						return true;
+		}
 	}
 
 	return false;
@@ -945,32 +1104,108 @@ bool ComportamientoJugador::VeoPuertaMuro(const vector <unsigned char> &terreno)
 Action ComportamientoJugador::EntrarMuro(Sensores sensores){
 	Action accion = actIDLE;
 
-	if(sensores.terreno[1]!='M' ){
-		if(sensores.terreno[2] == 'M')
-			if(sensores.terreno[3]=='M')
-					accion = actTURN_SL;
-	}
-	if(sensores.terreno[2]!='M' ){
-		if(sensores.terreno[1] == 'M')
-			if(sensores.terreno[3]=='M')
-					accion = actFORWARD;
-	}
-	if(sensores.terreno[3]!='M' ){
-		if(sensores.terreno[2] == 'M')
-			if(sensores.terreno[1]=='M')
-					accion = actTURN_SR;
-	}
+	if(current_state.brujula==norte or current_state.brujula==sur
+	or current_state.brujula==este or current_state.brujula==oeste){
+		// MURO SITUADO DELANTE
+		if(sensores.terreno[1]!='M' ){
+			if(sensores.terreno[2] == 'M')
+				if(sensores.terreno[3]=='M')
+						accion = actTURN_SL;
+		}
+		if(sensores.terreno[2]!='M' ){
+			if(sensores.terreno[1] == 'M')
+				if(sensores.terreno[3]=='M')
+						accion = actFORWARD;
+		}
+		if(sensores.terreno[3]!='M' ){
+			if(sensores.terreno[2] == 'M')
+				if(sensores.terreno[1]=='M')
+						accion = actTURN_SR;
+		}
 
-	
-	if(sensores.terreno[1]!='M'){
-		if(sensores.terreno[5] == 'M')
-			if(sensores.terreno[11]=='M')
-					accion = actTURN_SL;
-	}
-	if(sensores.terreno[3]!='M' ){
-		if(sensores.terreno[7] == 'M')
-			if(sensores.terreno[13]=='M')
-					accion = actTURN_SR;
+		if(sensores.terreno[4]!='M' ){
+			if(sensores.terreno[5] == 'M')
+				if(sensores.terreno[6]=='M')
+						accion = actTURN_SL;
+		}
+
+		if(sensores.terreno[5]!='M' ){
+			if(sensores.terreno[4] == 'M')
+				if(sensores.terreno[6]=='M')
+						accion = actFORWARD;
+		}
+
+		if(sensores.terreno[6]!='M' ){
+			if(sensores.terreno[5] == 'M')
+				if(sensores.terreno[7]=='M')
+						accion = actFORWARD;
+		}
+
+		if(sensores.terreno[7]!='M' ){
+			if(sensores.terreno[6] == 'M')
+				if(sensores.terreno[8]=='M')
+						accion = actFORWARD;
+		}
+		
+		if(sensores.terreno[8]!='M' ){
+			if(sensores.terreno[6] == 'M')
+				if(sensores.terreno[7]=='M')
+						accion = actTURN_SR;
+		}
+
+		if(sensores.terreno[10]!='M' ){
+			if(sensores.terreno[9] == 'M')
+				if(sensores.terreno[11]=='M')
+						accion = actFORWARD;
+		}
+
+		if(sensores.terreno[11]!='M' ){
+			if(sensores.terreno[10] == 'M')
+				if(sensores.terreno[12]=='M')
+						accion = actFORWARD;
+		}
+
+		if(sensores.terreno[12]!='M' ){
+			if(sensores.terreno[11] == 'M')
+				if(sensores.terreno[13]=='M')
+						accion = actFORWARD;
+		}
+
+		if(sensores.terreno[13]!='M' ){
+			if(sensores.terreno[12] == 'M')
+				if(sensores.terreno[14]=='M')
+						accion = actFORWARD;
+		}
+
+		if(sensores.terreno[14]!='M' ){
+			if(sensores.terreno[13] == 'M')
+				if(sensores.terreno[15]=='M')
+						accion = actFORWARD;
+		}
+
+		// MURO SITUADO AL LADO
+
+		if(sensores.terreno[1]!='M'){
+			if(sensores.terreno[5] == 'M')
+				if(sensores.terreno[11]=='M')
+						accion = actTURN_SL;
+		}
+		if(sensores.terreno[3]!='M' ){
+			if(sensores.terreno[7] == 'M')
+				if(sensores.terreno[13]=='M')
+						accion = actTURN_SR;
+		}
+
+		if(sensores.terreno[5]!='M'){
+			if(sensores.terreno[1] == 'M')
+				if(sensores.terreno[11]=='M')
+						accion = actFORWARD;
+		}
+		if(sensores.terreno[7]!='M' ){
+			if(sensores.terreno[3] == 'M')
+				if(sensores.terreno[13]=='M')
+						accion = actFORWARD;
+		}
 	}
 
 	last_action = accion;
@@ -980,14 +1215,41 @@ Action ComportamientoJugador::EntrarMuro(Sensores sensores){
 Action ComportamientoJugador::EvitarAgua(Sensores sensores){
 	Action accion;
 	if(sensores.terreno[2]=='A'){
-		if(sensores.terreno[1]!='A' and sensores.terreno[1]!='M' and sensores.terreno[1]!='P')
-			if(sensores.terreno[1]!='B' and !current_state.bikini)
+		if(sensores.terreno[1]!='A' and sensores.terreno[1]!='M' and sensores.terreno[1]!='P'){
+			if(sensores.terreno[1]!='B' or (sensores.terreno[1]=='B' and current_state.zapatillas)){
 				accion = actTURN_SL;
-		else if(sensores.terreno[3]!='A' and sensores.terreno[3]!='M' and sensores.terreno[3]!='P')
-			if(sensores.terreno[3]!='B' and !current_state.bikini)
+			}
+			else if(sensores.terreno[1] =='B' and !current_state.zapatillas){
+				switch(girar){
+					case 0: 
+						accion = actTURN_BL;
+						break;
+					case 1:
+						accion = actTURN_BR;
+						break;
+				}
+			}
+		}
+		else if(sensores.terreno[3]!='A' and sensores.terreno[3]!='M' and sensores.terreno[3]!='P'){
+			if(sensores.terreno[3]!='B' or (sensores.terreno[3]=='B' and current_state.zapatillas)){
 				accion = actTURN_SR;
+			}
+			else if(sensores.terreno[3] =='A' and !current_state.zapatillas){
+				switch(girar){
+					case 0: 
+						accion = actTURN_BL;
+						break;
+					case 1:
+						accion = actTURN_BR;
+						break;
+				}
+			}
+		}
 	}
-	else{
+	if(sensores.terreno[2]=='A' and (sensores.terreno[1]=='A' or sensores.terreno[1]=='P' 
+	or sensores.terreno[1]=='M' or (sensores.terreno[1]=='B' and !current_state.zapatillas))
+	and (sensores.terreno[3]=='A' or sensores.terreno[3]=='P' or sensores.terreno[3]=='M' or 
+	(sensores.terreno[3]!='B' and !current_state.zapatillas))){
 		girar = rand()%2;	
 		switch(girar){
 			case 0: 
@@ -1005,18 +1267,41 @@ Action ComportamientoJugador::EvitarBosque(Sensores sensores){
 	Action accion;
 	if(sensores.terreno[2]=='B'){
 		if(sensores.terreno[1]!='B' and sensores.terreno[1]!='M' and sensores.terreno[1]!='P'){
-			if(sensores.terreno[1]!='A' and !current_state.zapatillas){
+			if(sensores.terreno[1]!='A' or (sensores.terreno[1]=='A' and current_state.bikini)){
 				accion = actTURN_SL;
 			}
+			else if(sensores.terreno[1]=='A' and !current_state.bikini){
+				switch(girar){
+					case 0: 
+						accion = actTURN_BL;
+						break;
+					case 1:
+						accion = actTURN_BR;
+						break;
+				}
+			}
 		}
-		if(sensores.terreno[3]!='B' and sensores.terreno[3]!='M' and sensores.terreno[3]!='P'){
-			if(sensores.terreno[3]!='A' and !current_state.zapatillas){
+		else if(sensores.terreno[3]!='B' and sensores.terreno[3]!='M' and sensores.terreno[3]!='P'){
+			if(sensores.terreno[3]!='A' or (sensores.terreno[3]=='A' and current_state.bikini)){
 				accion = actTURN_SR;
+			}
+			else if(sensores.terreno[3]=='A' and !current_state.bikini){
+				switch(girar){
+					case 0: 
+						accion = actTURN_BL;
+						break;
+					case 1:
+						accion = actTURN_BR;
+						break;
+				}
 			}
 		}
 	}
-	else{
-		girar = rand()%3;	
+	if(sensores.terreno[2]=='B' and (sensores.terreno[1]=='B' or sensores.terreno[1]=='P' 
+	or sensores.terreno[1]=='M' or (sensores.terreno[1]=='A' and !current_state.bikini))
+	and (sensores.terreno[3]=='B' or sensores.terreno[3]=='P' or sensores.terreno[3]=='M' or 
+	(sensores.terreno[3]!='A' and !current_state.bikini))){
+		girar = rand()%2;	
 		switch(girar){
 			case 0: 
 				accion = actTURN_BL;
@@ -1024,9 +1309,6 @@ Action ComportamientoJugador::EvitarBosque(Sensores sensores){
 			case 1:
 				accion = actTURN_BR;
 				break;
-			case 2:
-				accion = actFORWARD;
-			break;
 		}
 	}
 	return accion;
