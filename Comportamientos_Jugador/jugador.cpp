@@ -64,7 +64,7 @@ Action ComportamientoJugador::think(Sensores sensores){
 		accion = IrObjeto(sensores);
 	}
 	
-	else if(contador == pasosGirar){
+	else if(contador == pasosGirar and (sensores.terreno[0]!='A' or sensores.terreno[0]!='B')){
 		girar = rand()%4;	
 		switch(girar){
 			case 0:
@@ -154,18 +154,11 @@ Action ComportamientoJugador::think(Sensores sensores){
 		}
 	}
 
-	else if((sensores.terreno[2] == 'T' or sensores.terreno[2] == 'S'
-		or sensores.terreno[2] == 'G' or sensores.terreno[2]=='X' 
-		or sensores.terreno[2] == 'K' or sensores.terreno[2] == 'D'
-		or (sensores.terreno[2]=='A' and current_state.bikini) or 
-		(sensores.terreno[2]=='B' and current_state.zapatillas)) 
-		and sensores.superficie[2] == '_' and !HayObstaculo(sensores.terreno) ){
-			accion = actFORWARD;
-	}
-
-	else if((sensores.terreno[0]=='K') or (sensores.terreno[0] == 'D')){
-		if(!HayObstaculo(sensores.terreno))
-			accion = actFORWARD;
+	else if(contador == pasosGirar and (sensores.terreno[0]=='A' or sensores.terreno[0]=='B')){
+		contador--;
+		if(sensores.superficie[2]=='_' and !HayObstaculo(sensores.terreno)){
+			actFORWARD;
+		}
 		else{
 			girar = rand()%4;	
 			switch(girar){
@@ -252,7 +245,110 @@ Action ComportamientoJugador::think(Sensores sensores){
 							break;
 						}
 					}
-				break;
+					break;
+				}
+			}
+		}
+
+		else if((sensores.terreno[2] == 'T' or sensores.terreno[2] == 'S'
+			or sensores.terreno[2] == 'G' or sensores.terreno[2]=='X' 
+			or sensores.terreno[2] == 'K' or sensores.terreno[2] == 'D'
+			or (sensores.terreno[2]=='A' and current_state.bikini) or 
+			(sensores.terreno[2]=='B' and current_state.zapatillas)) 
+			and sensores.superficie[2] == '_' and !HayObstaculo(sensores.terreno) ){
+				accion = actFORWARD;
+		}
+
+		else if((sensores.terreno[0]=='K') or (sensores.terreno[0] == 'D')){
+			if(!HayObstaculo(sensores.terreno))
+				accion = actFORWARD;
+			else{
+				girar = rand()%4;	
+				switch(girar){
+					case 0:
+						if(last_action != actTURN_SR)
+							accion = actTURN_SL;
+						else{
+							girar = rand()%3;
+							switch (girar)
+							{
+								case 0:
+									accion = actTURN_SR;
+								break;
+
+								case 2:
+									accion = actTURN_BL;
+								break;
+
+								case 3:					
+									accion = actTURN_BR;
+								break;
+							}
+						}
+						break;
+					case 1:
+						if(last_action != actTURN_SL)
+							accion = actTURN_SR;
+						else{
+							girar = rand()%3;
+							switch (girar)
+							{
+								case 0:
+									accion = actTURN_SL;
+								break;
+
+								case 2:
+									accion = actTURN_BL;
+								break;
+								
+								case 3:					
+									accion = actTURN_BR;
+								break;
+							}
+						}
+						break;
+					case 2:
+						if(last_action != actTURN_BR)
+							accion = actTURN_BL;
+						else{
+							girar = rand()%3;
+							switch (girar)
+							{
+								case 0:
+									accion = actTURN_SR;
+								break;
+
+								case 2:
+									accion = actTURN_SL;
+								break;
+								
+								case 3:					
+									accion = actTURN_BR;
+								break;
+							}
+						}
+						break;
+					case 3:
+						if(last_action != actTURN_BL)
+							accion = actTURN_BR;
+						else{
+							girar = rand()%3;
+							switch (girar)
+							{
+								case 0:
+									accion = actTURN_SR;
+								break;
+
+								case 2:
+									accion = actTURN_BL;
+								break;
+								
+								case 3:					
+									accion = actTURN_SL;
+								break;
+							}
+						}
+					break;
 			}
 		}
 	}
