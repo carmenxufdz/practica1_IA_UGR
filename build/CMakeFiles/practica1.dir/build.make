@@ -73,15 +73,15 @@ CMakeFiles/practica1.dir/bin_src/juego.cc.o: CMakeFiles/practica1.dir/flags.make
 CMakeFiles/practica1.dir/bin_src/juego.cc.o: ../bin_src/juego.cc
 CMakeFiles/practica1.dir/bin_src/juego.cc.o: CMakeFiles/practica1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practica1.dir/bin_src/juego.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica1.dir/bin_src/juego.cc.o -MF CMakeFiles/practica1.dir/bin_src/juego.cc.o.d -o CMakeFiles/practica1.dir/bin_src/juego.cc.o -c /home/alissea/practica1_IA/bin_src/juego.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica1.dir/bin_src/juego.cc.o -MF CMakeFiles/practica1.dir/bin_src/juego.cc.o.d -o CMakeFiles/practica1.dir/bin_src/juego.cc.o -c /home/alissea/practica1_IA/bin_src/juego.cc
 
 CMakeFiles/practica1.dir/bin_src/juego.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practica1.dir/bin_src/juego.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/bin_src/juego.cc > CMakeFiles/practica1.dir/bin_src/juego.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/bin_src/juego.cc > CMakeFiles/practica1.dir/bin_src/juego.cc.i
 
 CMakeFiles/practica1.dir/bin_src/juego.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practica1.dir/bin_src/juego.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/bin_src/juego.cc -o CMakeFiles/practica1.dir/bin_src/juego.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/bin_src/juego.cc -o CMakeFiles/practica1.dir/bin_src/juego.cc.s
 
 # Object files for target practica1
 practica1_OBJECTS = \

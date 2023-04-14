@@ -73,15 +73,15 @@ CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: CMakeFiles/practica1SG.dir/flag
 CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: ../bin_src/juegoSG.cc
 CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o: CMakeFiles/practica1SG.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o -MF CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o.d -o CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o -c /home/alissea/practica1_IA/bin_src/juegoSG.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o -MF CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o.d -o CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.o -c /home/alissea/practica1_IA/bin_src/juegoSG.cc
 
 CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/bin_src/juegoSG.cc > CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/bin_src/juegoSG.cc > CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.i
 
 CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/bin_src/juegoSG.cc -o CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/bin_src/juegoSG.cc -o CMakeFiles/practica1SG.dir/bin_src/juegoSG.cc.s
 
 # Object files for target practica1SG
 practica1SG_OBJECTS = \

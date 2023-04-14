@@ -73,57 +73,57 @@ CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o: CMakeFi
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o: ../Comportamientos_Jugador/aldeano.cpp
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o: CMakeFiles/comportamientosLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o -MF CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o.d -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o -c /home/alissea/practica1_IA/Comportamientos_Jugador/aldeano.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o -MF CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o.d -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.o -c /home/alissea/practica1_IA/Comportamientos_Jugador/aldeano.cpp
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/Comportamientos_Jugador/aldeano.cpp > CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/Comportamientos_Jugador/aldeano.cpp > CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.i
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/Comportamientos_Jugador/aldeano.cpp -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/Comportamientos_Jugador/aldeano.cpp -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/aldeano.cpp.s
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o: CMakeFiles/comportamientosLib.dir/flags.make
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o: ../Comportamientos_Jugador/jugador.cpp
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o: CMakeFiles/comportamientosLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o -MF CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o.d -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o -c /home/alissea/practica1_IA/Comportamientos_Jugador/jugador.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o -MF CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o.d -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.o -c /home/alissea/practica1_IA/Comportamientos_Jugador/jugador.cpp
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/Comportamientos_Jugador/jugador.cpp > CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/Comportamientos_Jugador/jugador.cpp > CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.i
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/Comportamientos_Jugador/jugador.cpp -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/Comportamientos_Jugador/jugador.cpp -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/jugador.cpp.s
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o: CMakeFiles/comportamientosLib.dir/flags.make
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o: ../Comportamientos_Jugador/perro.cpp
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o: CMakeFiles/comportamientosLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o -MF CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o.d -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o -c /home/alissea/practica1_IA/Comportamientos_Jugador/perro.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o -MF CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o.d -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.o -c /home/alissea/practica1_IA/Comportamientos_Jugador/perro.cpp
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/Comportamientos_Jugador/perro.cpp > CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/Comportamientos_Jugador/perro.cpp > CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.i
 
 CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/Comportamientos_Jugador/perro.cpp -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/Comportamientos_Jugador/perro.cpp -o CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/perro.cpp.s
 
 CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: CMakeFiles/comportamientosLib.dir/flags.make
 CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: ../src/comportamientos/comportamiento.cpp
 CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o: CMakeFiles/comportamientosLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o -MF CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o.d -o CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o -c /home/alissea/practica1_IA/src/comportamientos/comportamiento.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o -MF CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o.d -o CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.o -c /home/alissea/practica1_IA/src/comportamientos/comportamiento.cpp
 
 CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/comportamientos/comportamiento.cpp > CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/comportamientos/comportamiento.cpp > CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.i
 
 CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/comportamientos/comportamiento.cpp -o CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/comportamientos/comportamiento.cpp -o CMakeFiles/comportamientosLib.dir/src/comportamientos/comportamiento.cpp.s
 
 # Object files for target comportamientosLib
 comportamientosLib_OBJECTS = \

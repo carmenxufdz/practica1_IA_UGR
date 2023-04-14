@@ -73,225 +73,225 @@ CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o: CMakeFiles/obj3DLib.dir/flags.
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o: ../src/obj3dlib/cono3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/cono3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/cono3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/cono3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/cono3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/cono3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/cono3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o: ../src/obj3dlib/cono3dwire.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/cono3dwire.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/cono3dwire.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/cono3dwire.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/cono3dwire.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/cono3dwire.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/cono3dwire.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o: ../src/obj3dlib/cubo3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/cubo3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/cubo3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/cubo3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/cubo3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/cubo3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/cubo3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o: ../src/obj3dlib/dodecaedro3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/dodecaedro3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/dodecaedro3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/dodecaedro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/dodecaedro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/dodecaedro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/dodecaedro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o: ../src/obj3dlib/esfera3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/esfera3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/esfera3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/esfera3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/esfera3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/esfera3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/esfera3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o: ../src/obj3dlib/file_ply_stl.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/file_ply_stl.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/file_ply_stl.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/file_ply_stl.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/file_ply_stl.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/file_ply_stl.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/file_ply_stl.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o: ../src/obj3dlib/icosaedro3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/icosaedro3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/icosaedro3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/icosaedro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/icosaedro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/icosaedro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/icosaedro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o: ../src/obj3dlib/jpeg_reader/jpg_imagen.cpp
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o -c /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_imagen.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o -c /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_imagen.cpp
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_imagen.cpp > CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_imagen.cpp > CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_imagen.cpp -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_imagen.cpp -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o: ../src/obj3dlib/jpeg_reader/jpg_memsrc.cpp
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o -c /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o -c /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp > CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp > CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o: ../src/obj3dlib/jpeg_reader/jpg_readwrite.cpp
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o -c /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o -c /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp > CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp > CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp -o CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o: ../src/obj3dlib/luz.cpp
 CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o -c /home/alissea/practica1_IA/src/obj3dlib/luz.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o -c /home/alissea/practica1_IA/src/obj3dlib/luz.cpp
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/luz.cpp > CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/luz.cpp > CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/luz.cpp -o CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/luz.cpp -o CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o: ../src/obj3dlib/objeto3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/objeto3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/objeto3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/objeto3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/objeto3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/objeto3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/objeto3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o: ../src/obj3dlib/objrevolucion3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/objrevolucion3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/objrevolucion3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/objrevolucion3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/objrevolucion3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/objrevolucion3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/objrevolucion3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o: ../src/obj3dlib/octaedro3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/octaedro3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/octaedro3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/octaedro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/octaedro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/octaedro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/octaedro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o: ../src/obj3dlib/tetraedro3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/tetraedro3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/tetraedro3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/tetraedro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/tetraedro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/tetraedro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/tetraedro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.s
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o: CMakeFiles/obj3DLib.dir/flags.make
 CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o: ../src/obj3dlib/toro3d.cc
 CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o: CMakeFiles/obj3DLib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alissea/practica1_IA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/toro3d.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o -MF CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o.d -o CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o -c /home/alissea/practica1_IA/src/obj3dlib/toro3d.cc
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/toro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alissea/practica1_IA/src/obj3dlib/toro3d.cc > CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.i
 
 CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/toro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alissea/practica1_IA/src/obj3dlib/toro3d.cc -o CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.s
 
 # Object files for target obj3DLib
 obj3DLib_OBJECTS = \
