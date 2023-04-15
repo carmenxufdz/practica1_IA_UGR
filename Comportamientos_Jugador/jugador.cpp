@@ -46,24 +46,24 @@ Action ComportamientoJugador::think(Sensores sensores){
 	else if(!bien_situado and CasillaPosicionamiento(sensores.terreno)==true){
 		accion = Posicionarme(sensores);
 	}
-
-	else if(VeoPuertaMuro(sensores.terreno)==true){
-		accion = EntrarMuro(sensores);
-	}
-
-	else if(sensores.terreno[0] == 'X' and sensores.bateria < 3000){
-		accion = actIDLE;
-	}
-	
-	else if(CasillaRecarga(sensores.terreno) and sensores.bateria < 2500){
-		accion = Recargar(sensores);
-	}
 	
 	else if(((VeoZapatos(sensores.terreno)) 
 	or (VeoBikini(sensores.terreno))) and !HayMuroDelante(sensores.terreno)){
 		accion = IrObjeto(sensores);
 	}
 	
+	else if(VeoPuertaMuro(sensores.terreno)==true and !HayMuroDelante(sensores.terreno)){
+		accion = EntrarMuro(sensores);
+	}
+	
+	else if(sensores.terreno[0] == 'X' and sensores.bateria < 3000){
+		accion = actIDLE;
+	}
+	
+	else if(CasillaRecarga(sensores.terreno) and sensores.bateria < 2500 and !HayMuroDelante(sensores.terreno)){
+		accion = Recargar(sensores);
+	}
+
 	else if(contador == pasosGirar and (sensores.terreno[0]!='A' or sensores.terreno[0]!='B')){
 		girar = rand()%4;	
 		switch(girar){
